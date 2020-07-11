@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.*",
+        "yiisoft/yii2": "~2.0.36",
         "npm-asset/foundation-sites": "^6.6.3"
     },
     "require-dev": {

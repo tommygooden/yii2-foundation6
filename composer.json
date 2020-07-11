@@ -1,0 +1,44 @@
+{
+    "name": "tommygooden/foundation6",
+    "description": "The Zurb Foundation widget/ extension for the Yii2 framework",
+    "keywords": ["yii2", "zurb", "foundation", "foundation 6"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/tommygooden/yii2-foundation6/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "source": "https://github.com/tommygooden/yii2-foundation6"
+    },
+    "authors": [
+        {
+            "name": "Tommy Gooden",
+            "email": "dev@tommygooden.com",
+            "homepage": "http://www.tommygooden.com/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.*",
+        "npm-asset/foundation-sites": "^6.6.3"
+    },
+    "require-dev": {
+        "yiisoft/yii2-coding-standards": "~2.0",
+        "phpunit/phpunit": "<7"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "tommygooden\\foundation6\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
